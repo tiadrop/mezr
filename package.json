@@ -1,0 +1,19 @@
+{
+  "name": "@xtia/mezr",
+  "version": "1.0.0",
+  "description": "Abstracted measurements",
+  "main": "dist/mezr.js",
+  "types": "dist/mezr.d.ts",
+  "scripts": {
+    "test": "npx jest",
+    "build": "npx tsc"
+  },
+  "author": "Aleta Lovelace",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.7.2"
+  }
+}

@@ -6,7 +6,13 @@ Abstracted measurements for JS/TS, providing `Distance`, `Angle`, time `Period`,
 
 Worry no more about keeping track of what unit a property or parameter expects. An angle is an angle, a weight is a weight.
 
+```
+npm i @xtia/mezr
+```
+
 ```ts
+import { Angle } from "@xtia/mezr";
+
 function setRotation(angle: Angle) {
     element.style.transform = `rotate(${angle.asRadians}rad)`;
 }

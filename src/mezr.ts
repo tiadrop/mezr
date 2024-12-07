@@ -3,7 +3,7 @@ type Measurement<U extends string, FU extends U> = {
     toUnit(unit: U): number;
     multiply(n: number): Measurement<U, FU>;
     divide(n: number): Measurement<U, FU>;
-    divide(n: Measurement<U, FU> | Description<U>): Measurement<U, FU>;
+    divide(n: Measurement<U, FU> | Description<U>): number;
     remainder(n: number): Measurement<U, FU>;
     blend(target: Measurement<U, FU> | Description<U>, bias?: number): Measurement<U, FU>;
     add(...m: (Measurement<U, FU> | Description<U>)[]): Measurement<U, FU>;

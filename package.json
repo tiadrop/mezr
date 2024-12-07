@@ -1,6 +1,6 @@
 {
   "name": "@xtia/mezr",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Abstracted measurements",
   "main": "dist/mezr.js",
   "types": "dist/mezr.d.ts",
